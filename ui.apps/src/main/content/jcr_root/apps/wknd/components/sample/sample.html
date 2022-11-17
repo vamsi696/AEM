@@ -1,0 +1,17 @@
+<head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+<meta data-sly-call="${clientLib.all @ categories='sample'}" data-sly-unwrap></meta>
+
+<div data-sly-use.test="com.adobe.aem.guides.core.models.Sample">
+<p class = "sample">${properties.title1}</p>
+
+<p class = "sample">${properties.title2}</p>
+
+<p class = "sample">${properties.title3}</p>
+
+<p class = "sample">${test.title4}</p>
+
+<p class = "sample">${properties.linkURL}</p>
+
+
+<input type="button" value ="Click me" onclick ="msg()">
+ </div>
